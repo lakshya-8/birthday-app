@@ -1,5 +1,6 @@
 {
   "name": "birthday-search-app",
+  "homepage": "https://lakshya-8.github.io/birthday-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,6 +18,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +42,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.15",
+    "@mui/styled-engine-sc": "^5.11.11",
+    "@mui/x-date-pickers": "^6.0.3",
+    "@types/lodash": "^4.14.192",
+    "@types/styled-components": "^5.1.26",
+    "dayjs": "^1.11.7",
+    "gh-pages": "^5.0.0",
+    "lodash": "^4.17.21"
   }
 }
