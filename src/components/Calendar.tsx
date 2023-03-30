@@ -17,7 +17,8 @@ const CalendarWrapper = styled.div`
     margin-top: 50px;
     align-items: flex-start;
     margin-left: 20%;
-    margin-right: 20%;
+    margin-right: 20%;,
+    align-items: center;
 `;
 
 const Title = styled.h1`
